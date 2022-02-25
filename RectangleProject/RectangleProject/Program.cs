@@ -1,4 +1,5 @@
 ﻿using System;
+using RectangleProject.Models;
 
 namespace RectangleProject
 {
@@ -6,7 +7,9 @@ namespace RectangleProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Rectangle r1 = new Rectangle(10.5, 20.5);
+            Rectangle r2 = new Rectangle(5, 10);
+            Console.WriteLine(r1);
         }
     }
 }
