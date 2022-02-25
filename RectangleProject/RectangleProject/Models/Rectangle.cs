@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RectangleProject.Models
 {
@@ -9,19 +7,31 @@ namespace RectangleProject.Models
         private double sideA, sideB;
         public Rectangle(double sideA, double sideB)
         {
-            this.sideA = sideA;
-            this.sideB = sideB;
+            if (sideA <= 0 || sideB <= 0) throw new RectangleSideIsNullOrZero("Nem lehet negatív vagy nulla oldal!");
+            else
+            {
+                this.sideA = sideA;
+                this.sideB = sideB;
+            }
         }
 
         public double SideA
         {
             get => sideA;
-            set => sideA = value;
+            set
+            {
+                if (value <= 0) throw new RectangleSideIsNullOrZero("Nem lehet negatív vagy nulla oldal!");
+                else sideA = value;
+            }
         }
         public double SideB
         {
             get => sideB;
-            set => sideB = value;
+            set
+            {
+                if (value <= 0) throw new RectangleSideIsNullOrZero("Nem lehet negatív vagy nulla oldal!");
+                else sideB = value;
+            }
         }
 
         public double Area { get => sideA * sideB; }

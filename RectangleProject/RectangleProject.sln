@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangleProject", "Rectang
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tests", "..\tests\tests.csproj", "{4766C851-C354-4BB3-A0C1-2E39545E0164}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tests2", "..\tests2\tests2.csproj", "{236610F7-F099-4D3A-9BDC-160B771ACE89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4766C851-C354-4BB3-A0C1-2E39545E0164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4766C851-C354-4BB3-A0C1-2E39545E0164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4766C851-C354-4BB3-A0C1-2E39545E0164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236610F7-F099-4D3A-9BDC-160B771ACE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236610F7-F099-4D3A-9BDC-160B771ACE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236610F7-F099-4D3A-9BDC-160B771ACE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236610F7-F099-4D3A-9BDC-160B771ACE89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
